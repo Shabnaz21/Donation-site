@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+.banner{
+    background-image: url(images/banner.jpg);
+    max-width: 1200;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+.banner_para{
+    padding: 200px;
+    text-align: right;
+}
+.banner_content_para{
+    word-spacing: 15px;
+    margin-bottom: 0px;
+}
+.donate_button{
+    background-color: #FF506F;
+    color: white;
+    margin-top: 11px;
+    padding: 15px;
+    word-spacing: 3px;
+    border-radius: 25px;
+    border: none;
+}
+.donate_button:hover {
+    background-color: #EBEBEB;
+    color: black;
+    
+}
+.donation_body{
+    text-align: center;
+    margin-top: 3%;
+}
+.amount_row{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.amount{
+    background-color: #EBEBEB;
+    padding: 20px;
+    margin-right: 15px;
+    border: 2px;
+    cursor: pointer;
+}
+#input-amount{
+    font-size: 15px;
+    width: 10%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px #FF506F solid;
+    padding: 15px;
+
+}
+.donation_amount{
+    margin-bottom: 4%;
+}
+.amount_row2{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    flex-direction: row;
+    align-items: center;  
+
+}
+.amount1{
+    padding: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+    
+}
+#rcorners {
+    border-radius: 50%;
+    background: #FE415D;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+.donation_amount_text{
+    flex-direction: row;
+    text-align: center;
+}
+.donate_button1{
+    background-color: #FFA301;
+    color: white;
+    margin-top: 7px;
+    padding: 15px;
+    word-spacing: 3px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 1.5%;
+}
+.donate_button1:hover {
+    background-color: #EBEBEB;
+    color: black;
+    
+}
+footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+a:visited {
+    color: #FFA301;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: #FF506F;}
+
+.donation_plan{
+    text-align: center;
+    margin: 20px;
+}
+.flex-contenior{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+.plan{
+    background-color: #EBEBEB;
+    padding: 20px;
+    margin-right: 20px;
+    border: 2px;
+    cursor: pointer;
+    text-align: center;
+    height: 200px;
+}
+.galary{
+    text-align: center;
+    margin: 2%;
+}
+.image-row{
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
+.image-row img {
+    width: 19%;
+    padding: 5px;
+    margin: 5px;
+    ;
+}
+.team_member{
+    word-spacing: 20px;
+}
+.team{
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+.author{
+    background-color: #EBEBEB;
+    padding: 70px;
+    margin-right: 20px;
+    border: 50px;
+    cursor: pointer;
+    text-align: center;
+    height: 200px;
+
+}
