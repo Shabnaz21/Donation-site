@@ -142,6 +142,7 @@ a:hover {
     justify-content: center;
     margin: 20px;
     align-items: center;
+    
 }
 .plan{
     background-color: #EBEBEB;
@@ -151,15 +152,22 @@ a:hover {
     cursor: pointer;
     text-align: center;
     height: 200px;
+    margin-bottom: 20px;
 }
 .galary{
     text-align: center;
-    margin: 2%;
+    margin: 1%;
+}
+.galary h2{
+    font-size: 30px;
 }
 .image-row{
     display: flex;
     text-align: center;
     justify-content: center
+}
+.image-galary{
+    margin-top: 20px;
 }
 .image-row img {
     width: 19%;
@@ -170,10 +178,10 @@ a:hover {
 .team_member{
     word-spacing: 20px;
 }
+
 .team{
     text-align: center;
     margin-bottom: 2%;
-
 }
 .author{
     background-color: #EBEBEB;
@@ -184,4 +192,43 @@ a:hover {
     text-align: center;
     height: 200px;
 
+}
+.feature-blog{
+    text-align: left;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+.feature-row {
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    align-items: center;
+}
+
+.news{
+    text-align: center;
+    align-items: center;
+    background-color: #FF506F;
+    margin: 50px;
+    padding: 30px;
+}
+.news h3{
+    font-size: 25px;
+}
+
+.donate_button2{
+    background-color:black;
+    color: white;
+    margin-top: 7px;
+    padding: 20px;
+    word-spacing: 3px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 1.5%;
+}
+.donate_button2:hover {
+    background-color: #FFA301;
+    color: black;
 }
